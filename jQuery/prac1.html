@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQ-1</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <style type="text/css">
+        #dv1{
+            width: 250px;
+            height: 500px;
+            background-color: red;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <button id="btn">Cilck Me</button>
+    <div id="dv1">
+
+    </div>
+    <script>
+        jQuery(document).ready(function(){
+            jQuery("#btn").click(function(){
+                $("#dv1").show(800)
+            })
+        })
+    </script>
+</body>
+</html>
